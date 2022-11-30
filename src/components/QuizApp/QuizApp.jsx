@@ -9,39 +9,39 @@ export function QuizApp() {
 
     const questions = [
         {
-            questionText: 'What is the capital of France?',
+            questionText: 'What is not a wind instrument?',
             answerOptions: [
-                { answerText: 'New York', isCorrect: false },
-                { answerText: 'London', isCorrect: false },
-                { answerText: 'Paris', isCorrect: true },
-                { answerText: 'Dublin', isCorrect: false },
+                { answerText: 'Oboe', isCorrect: false },
+                { answerText: 'Trombone', isCorrect: false },
+                { answerText: 'Viola', isCorrect: true },
+                { answerText: 'Duduk', isCorrect: false },
             ],
         },
         {
-            questionText: 'Who is CEO of Tesla?',
+            questionText: 'What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?',
             answerOptions: [
-                { answerText: 'Jeff Bezos', isCorrect: false },
-                { answerText: 'Elon Musk', isCorrect: true },
-                { answerText: 'Bill Gates', isCorrect: false },
-                { answerText: 'Tony Stark', isCorrect: false },
+                { answerText: 'The Dream Team', isCorrect: false },
+                { answerText: 'Demolition', isCorrect: true },
+                { answerText: 'The Bushwhackers', isCorrect: false },
+                { answerText: 'The British Bulldogs', isCorrect: false },
             ],
         },
         {
-            questionText: 'The iPhone was created by which company?',
+            questionText: 'Which of these is NOT a player class in Team Fortress 2?',
             answerOptions: [
-                { answerText: 'Apple', isCorrect: true },
-                { answerText: 'Intel', isCorrect: false },
-                { answerText: 'Amazon', isCorrect: false },
-                { answerText: 'Microsoft', isCorrect: false },
+                { answerText: 'Healer', isCorrect: true },
+                { answerText: 'Demoman', isCorrect: false },
+                { answerText: 'Pyro', isCorrect: false },
+                { answerText: 'Spy', isCorrect: false },
             ],
         },
         {
-            questionText: 'How many Harry Potter books are there?',
+            questionText: 'How many studio albums have the duo Daft Punk released?',
             answerOptions: [
                 { answerText: '1', isCorrect: false },
-                { answerText: '4', isCorrect: false },
-                { answerText: '6', isCorrect: false },
-                { answerText: '7', isCorrect: true },
+                { answerText: '5', isCorrect: false },
+                { answerText: '2', isCorrect: false },
+                { answerText: '4', isCorrect: true },
             ],
         },
     ];
