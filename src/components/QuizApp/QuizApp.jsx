@@ -23,7 +23,7 @@ export function QuizApp() {
     };
 
     return (
-        <div className='app'>
+        <div className='container'>
             {showScore ? (
                 <div className='score-section'>
                     You scored {score} out of {questions.length}
